@@ -1,0 +1,69 @@
+.my-overlay-header{
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	z-index: 9999;
+	
+}
+.my-header-overlay-text{
+	width:100%;
+	position: absolute;
+	color: rgb(255, 128, 128);
+	font-size: 13vw;
+	text-outline: 2px 2px white;
+	z-index:99999;
+	font-family: "Courier New", Courier, monospace;
+}
+.my-header-overlay-text-two{
+	width:100%;
+	top:85%;
+	position: absolute;
+	color: #9d9d9d ;
+	font-weight: bold;
+	text-outline: 2px 2px white;
+	z-index:99999;
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+/**************************** index.jsp**************************/
+.index-head-text{
+	font-size: 5vw;
+	color: white;
+	font-family: 'Life Savers', cursive;
+}
+.box{ 
+	border-radius:10px;
+}
+.box img{
+	
+	border-radius: 50%;
+}
+
+.pagination li{
+	
+}
+
+.select-alpha{
+	border-radius: 50%;
+	height:50px;
+	width:50px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 22px;
+	transition: all 0.5s ease-in-out;
+}
+
+.select-alpha:hover{
+
+	transform: scale(1.2);
+	
+}
+
+
+/******************** admin*****************************/
+.login-border{
+	border: 2px solid #ff8000;
+	
+}
